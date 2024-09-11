@@ -1,0 +1,47 @@
+#profile{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+ padding-block:36px ; 
+ flex-wrap: wrap;
+margin-inline: auto;
+}
+
+
+#profile div{
+  display: flex;
+  flex-direction: column;
+  max-width: 384px;
+  gap: 8px;
+  font: var(--text-md);
+  padding-right: 10px;
+  text-align: left;
+
+}
+
+
+#about-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
+  width: 100%;
+  align-items: start;
+  justify-content: center;
+  gap: 16px;
+  padding-right: 32px;
+  list-style: none;
+  margin-inline: auto;
+}
+
+#info li{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
